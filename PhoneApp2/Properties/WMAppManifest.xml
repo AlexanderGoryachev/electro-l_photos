@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{2b7fb1d5-dcd6-4dcb-8f4b-e278292c6853}" Title="PhoneApp2" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PhoneApp2 author" Description="Sample description" Publisher="PhoneApp2" PublisherID="{cb9737a1-9dac-478d-b5dc-29c628edcd10}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="PhoneApp2Token" TaskName="_default">
+        <TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">
+          </SmallImageURI>
+          <Title>
+          </Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">
+          </Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">
+          </Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">
+          </Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">
+          </Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">
+          </Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">
+          </Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">
+          </Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">
+          </Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">
+          </Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>True</HasLarge>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
